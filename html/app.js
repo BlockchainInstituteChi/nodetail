@@ -27,7 +27,7 @@ angular.module('app', [])
 	   	$http.get( "http://18.224.44.173:7000")
   		.then(function(response) { 
   		  	console.log("r:", response)
-  		  	$scope.log += response.data;
+  		  	$scope.log = response.data + $scope.log;
         }). 
         catch(function(error) { 
         	console.log(error);
