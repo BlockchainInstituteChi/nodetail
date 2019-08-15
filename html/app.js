@@ -24,7 +24,7 @@ angular.module('app', [])
 	function getLastLog () {
 
 		console.log('getting log')
-	   	$http.get( "http://localhost:7000")
+	   	$http.get( "http://18.224.44.173:7000")
   		.then(function(response) { 
   		  	console.log("r:", response)
   		  	$scope.log += response.data;

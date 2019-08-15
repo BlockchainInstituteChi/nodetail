@@ -23,10 +23,11 @@ module.exports = {
 	healthCheck : function healthCheck (req, res) {
 		return res.status(200);
 	},
-	log : function healthCheck (req, res) {
+	log : function log (req, res) {
 
 		// return res.status(200).send("tail")
-		readLastLines.read('/var/log/syslog', 2)
+		console.log('running');
+		readLastLines.read('/home/ubuntu/.bitcoin-testnet/debug.log', 2)
     		.then((lines) => res.status(200).send(lines));
 			
 	}

@@ -15,8 +15,8 @@ var originsWhitelist = [
   'https://bitcoin.theblockchaininstitute.org',
   'https://theblockchaininstitute.org/donations/',
   'https://theblockchaininstute.org',
-  'https://localhost:8000',
-  'https://localhost'
+  'https://18.224.44.173:8000',
+  'https://18.224.44.173'
 
 ];
 var corsOptions = {
