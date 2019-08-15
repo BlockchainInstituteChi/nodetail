@@ -12,8 +12,7 @@ var cors 	       = require('cors')
 
 // CORS Whitelist
 var originsWhitelist = [
-  'https://bitcoin.theblockchaininstitute.org',
-  'https://theblockchaininstitute.org/donations/',
+  'https://bitcoin-cli.theblockchaininstitute.org',
   'https://theblockchaininstute.org',
   'https://18.224.44.173:8000',
   'https://18.224.44.173'
