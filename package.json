@@ -1,0 +1,30 @@
+{
+  "name": "nodetail",
+  "version": "1.0.0",
+  "description": "a Node.js server that tails a log file and displays it like a terminal :)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockchainInstituteChi/nodetail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlockchainInstituteChi/nodetail/issues"
+  },
+  "homepage": "https://github.com/BlockchainInstituteChi/nodetail#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "read-last-lines": "^1.7.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "tail": "^2.0.2"
+  }
+}
