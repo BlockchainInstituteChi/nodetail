@@ -27,7 +27,7 @@ module.exports = {
 
 		// return res.status(200).send("tail")
 		console.log('running');
-		readLastLines.read('/home/ubuntu/.bitcoin/debug.log', 2)
+		readLastLines.read('/home/ubuntu/.bitcoin-testnet/debug.log', 2)
     		.then((lines) => res.status(200).send(lines));
 			
 	}
